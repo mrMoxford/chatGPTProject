@@ -77,14 +77,14 @@
 .gpt3__footer-copyright p {
     font-size: .75rem;
 }
-/* max-width: 850px */
+
 
 @media (max-width: 53.125em ){
     .gpt3__footer-headin h1 {
         font-size: 2.75rem;
     }
 }
-/* max-width: 550px */
+
 
 @media (max-width: 34.375em) {
     .gpt3__footer-heading h1 {
@@ -97,10 +97,10 @@
         font-size: .875rem
     }
 }
-/* max-width: 550px */
+
 
 @media (max-width: 34.375em) {
-    .gpt3__footer-heading h1 {
-        font-size: 1.6875rem
+    .gpt3__footer-heading h2 {
+        font-size: 2.125rem;
     }
 }

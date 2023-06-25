@@ -34,12 +34,11 @@
     font-weight: 500;
     font-size: .875rem;
     line-height: 1.5;
-    /* margin-left:2rem;  */
     color: var(--clr-primary-200);
 }
 
 
-/* max-width: 550px */
+
 
 @media (max-width: 34.375em){
     .gpt__features-containe__feature-title h1{

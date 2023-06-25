@@ -39,7 +39,7 @@ line-height: 30px;
 
 }
 
-/* max-width: 650px */
+
 
 @media (max-width: 40.625em){
     .gpt3__cta {
@@ -54,7 +54,7 @@ line-height: 30px;
        margin:0;
     }
 }
-/* max-width: 550px */
+
 
 @media (max-width: 34.375em){
     .gpt3__cta h3 {

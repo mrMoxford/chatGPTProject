@@ -41,7 +41,7 @@
     font-weight: 500;
 }
 
-/* max-width: 950px */
+
 @media (max-width: 59.375em){
     .gpt3__possibility {
         flex-direction: column;

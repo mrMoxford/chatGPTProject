@@ -3,7 +3,7 @@
 
 
 :root {
-    /* colors */
+   
 
     --gradient-text: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
     --clr-gradient-bar: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
@@ -20,8 +20,8 @@
     --clr-neutral-100: hsl(0 0% 100%);
     --clr-neutral-900: hsl(216, 71%, 5%);
     
-/* colors key bg: neutral-900  , footer: primary-400 , blog: primary-300, text-color: primary-200, subtext: neutral-100  */
-        /* font-sizes */
+
+      
         --fs-900:clamp(5rem,7vw + 1rem,9.375rem);
         --fs-800:3.875rem;
         --fs-700:1rem;
@@ -29,18 +29,17 @@
       
     
 
- /* font-families */
+
 
  
  --ff-primary:"Manrope", sans-serif;
 
 
- /* grandients */
+
 
 
 
 
 }
-/* ----------------------------- */
-/* -------{media queries}------ */
+
 

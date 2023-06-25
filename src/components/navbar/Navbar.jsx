@@ -23,10 +23,11 @@ const Menu = () => (
 );
 
 const Navbar = () => {
-  const [toggleMenu, setToggleMenu] = useState("closed");
-
+  const [toggleMenu, setToggleMenu] = useState(null);
+ 
   return (
     <nav className="gpt3__navbar section__padding">
+      <div className = "gpt3__navbar-content  ">
       <div className="gpt3__navbar-logo_container">
         <img src={logo} alt="gpt3__navbar-logo" />
       </div>
@@ -43,26 +44,26 @@ const Navbar = () => {
       </div>
 
       <div className="gpt3__navbar-menu">
-        <RiMenu3Line
+        { toggleMenu === null && <RiMenu3Line
           className="menu__open"
           color="hsl(0 0% 100%)"
           size={27}
           onClick={() => {
             setToggleMenu("open");
           }}
-        />
-
-        <div className={`gpt3__navbar-toggleMenu${toggleMenu}`}>
+        />}
+        
+        <div className={toggleMenu ? "gpt3__navbar-menu-toggle open" : "gpt3__navbar-menu-toggle"}>
           <RiCloseLine
             className="menu__close"
             color="hsl(0 0% 100%)"
             size={27}
             onClick={() => {
-              setToggleMenu("closed");
+              setToggleMenu(null);
             }}
           />
           <Menu />
-          <div className="gpt3__navbar-menu_sign">
+          <div className="gpt3__navbar-sign">
             <a className=" sing-in" href="#">
               Sign in
             </a>
@@ -73,6 +74,8 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+
+  </div>
     </nav>
   );
 };

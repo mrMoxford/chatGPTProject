@@ -12,11 +12,10 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App">
-      <div className="gradient__bg">
+      <div className="gradient__bg-header">
         <Navbar />
         <Header />
-      </div>
-      <div>
+        </div>
         <Brand />
         <WhatGPT3 />
         <Features />
@@ -24,7 +23,6 @@ const App = () => {
         <CTA />
         <Blog />
         <Footer />
-      </div>
     </div>
   );
 };
