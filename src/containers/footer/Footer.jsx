@@ -10,7 +10,7 @@ const Footer = () => {
         </h2>
       </div>
       <div className="gpt3__footer-btn">
-        <a href="#">Request Early Access</a>
+        <a href="/">Request Early Access</a>
       </div>
       <div className="gpt3__footer-links | flex">
         <div className="gpt3__footer-links_logo">
@@ -21,13 +21,13 @@ const Footer = () => {
           <p>Links</p>
           <ul className="flow">
             <li>
-              <a href="#">Overons</a>
+              <a href="/">Overons</a>
             </li>
             <li>
-              <a href="#">Social Media</a>
+              <a href="/">Social Media</a>
             </li>
             <li>
-              <a href="#">Counters</a>
+              <a href="/">Counters</a>
             </li>
           </ul>
         </div>
@@ -35,13 +35,13 @@ const Footer = () => {
           <p>Company</p>
           <ul className="flow">
             <li>
-              <a href="#">Terms & Conditions</a>
+              <a href="/">Terms & Conditions</a>
             </li>
             <li>
-              <a href="#">Privacy Policy</a>
+              <a href="/">Privacy Policy</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="/">Contact</a>
             </li>
           </ul>
         </div>

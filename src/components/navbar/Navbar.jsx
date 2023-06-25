@@ -35,7 +35,7 @@ const Navbar = () => {
         <Menu />
       </div>
       <div className="gpt3__navbar-sign">
-        <a className=" sign-in" href="#">
+        <a className=" sign-in" href="/">
           Sign in
         </a>
         <button type="button" className="text-white bg-accent">
@@ -64,7 +64,7 @@ const Navbar = () => {
           />
           <Menu />
           <div className="gpt3__navbar-sign">
-            <a className=" sing-in" href="#">
+            <a className=" sing-in" href="/">
               Sign in
             </a>
             <button type="button" className="bg-accent text-white">
